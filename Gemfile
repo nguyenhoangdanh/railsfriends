@@ -50,11 +50,11 @@ group :development do
   gem "web-console"
   gem "sqlite3", "~> 1.4"
 end
-# group :production do 
-#   gem 'pg', '~> 1.5', '>= 1.5.3'
-# end
-  
+
+group :production do 
+  gem 'pg', '~> 1.5', '>= 1.5.3'
 end
+  
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
